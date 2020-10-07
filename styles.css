@@ -1,0 +1,142 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
+
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    font-size: 16px;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: helvetica;
+    font-style: italic;
+    width: 100%;
+    float: center;
+}
+
+h2 {
+    font-family: helvetica;
+    font-style: italic;
+}
+
+h3 {
+    font-size: 2em;
+    color: gray;
+    font-family: helvetica;
+    font-style: italic;
+    float: left;
+    margin: 2%;
+}
+
+h4 {
+    font-size: 1.3em;
+    text-align: center;
+    font-family: helvetica;
+}
+
+h5 {
+    font-family: Helvetica;
+    left-margin: 10%;
+}
+
+h6 {
+    margin: 10%;
+    font-family: Helvetica;
+}
+
+figcaption,
+p {
+    font-size: 1.2em;
+    font-family: helvetica;
+}
+
+hr {
+    height: 4px;
+    background: gray;
+}
+
+.container,
+.icon-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: white;
+}
+
+.main_img {
+    width: 100%;
+}
+
+.head-photo {
+    font-size: 1em;
+    color: gray;
+    margin: 5px;
+}
+
+.icon-container img {
+    display: block;
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+
+.graphic-text {
+    margin: auto;
+}
+
+.header {
+    padding: 10px;
+    border-color: black;
+    border-style: solid;
+    padding: 100px;
+    background-color: black;
+    color: white;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 5%;
+}
+
+@media(min-width: 681px) {
+    p.intro {
+        max-width: 100%;
+    }
+
+    .icon-container {
+        /* Flex box styles go on the flex box element */
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .graphic {
+        flex-basis: 30%;
+    }
+
+    .graphic-text {
+        padding: 10px;
+    }
+}
+
+@media(min-width: 900px) {
+    .container {
+        max-width: 600px;
+    }
+}
+
+.main_img {
+    width: 100%;
+    background-color: gray;
+}
